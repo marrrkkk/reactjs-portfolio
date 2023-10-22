@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="flex justify-center text-white mt-52" id="about">
       <div className="w-[90%] lg:w-[70%] bg-[#161b22] rounded-lg slide-down">
-        <h1 className="my-2 text-sm text-center text-gray-500 font-InterRegular">
+        <h1 className="my-2 text-sm text-center text-gray-500">
           Visual Studio Code
         </h1>
         <div className="flex w-fit px-5 py-2 rounded-t-md mx-5 bg-[#24292f]">

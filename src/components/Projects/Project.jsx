@@ -6,10 +6,10 @@ import portfolio from "../../assets/portfolio.png";
 const Project = () => {
   return (
     <section className="slide-up">
-      <h1 className="flex justify-center mt-10 mb-5 text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-Inter">
+      <h1 className="flex justify-center mt-10 mb-5 text-2xl text-transparent this bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-Inter">
         Projects
       </h1>
-      <div className="flex flex-col lg:flex-row justify-center items-center">
+      <div className="flex flex-col items-center justify-center lg:flex-row">
         <Card
           img={ghibli}
           title={"Ghibli"}

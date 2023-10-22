@@ -4,8 +4,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Inter: ["Inter"],
-        InterRegular: ["Inter-Regular"],
       },
     },
   },
