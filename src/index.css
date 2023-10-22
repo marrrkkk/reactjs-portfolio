@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url("src/assets/fonts/Inter.ttf");
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url("src/assets/fonts/Inter-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #94a3b8;
+  background-color: #0b0b0c;
+  font-family: Inter-Regular;
+}
+
+.navBar {
+  position: fixed;
+  width: 70%;
+  height: 11%;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.navBar:hover {
+  height: 15%;
+}
+
+.blurEffect {
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  border-radius: 50% 22% 40% 80%;
+  filter: blur(100px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(76, 0, 255, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.2;
+  z-index: -100;
+}
+
+pre {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.slide-up {
+  animation: slide-up 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
