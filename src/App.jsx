@@ -1,6 +1,6 @@
 import Nav from "./components/Home/Nav";
 import Home from "./components/Home/Home";
-import Techstack from "./components/About/techstack";
+import Techstack from "./components/About/Techstack";
 import Blur from "./components/Blur";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
