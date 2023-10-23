@@ -16,8 +16,8 @@ const App = () => {
       <About />
       <Techstack />
       <ScrollAnimationComponent />
-      <Blur />
       <Footer />
+      <Blur />
     </>
   );
 };

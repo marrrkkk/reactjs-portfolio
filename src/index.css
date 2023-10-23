@@ -30,7 +30,7 @@ body {
   transform: translate(-50%);
 }
 
-.navBar:hover {
+.navBar:active {
   height: 15%;
 }
 

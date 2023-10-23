@@ -6,7 +6,7 @@ import { Tooltip } from "react-tooltip";
 const Nav = () => {
   return (
     <>
-      <nav className="navBar md:hover:h-[10%] lg:hover:h-[15%] lg:w-[25%] md:w-[40%] md:h-[9%] transition-all rounded-lg flex justify-center items-center bg-black/50 border backdrop-blur-sm z-50">
+      <nav className="navBar md:active:h-[10%] lg:hover:h-[15%] lg:w-[25%] md:w-[40%] md:h-[9%] transition-all rounded-lg flex justify-center items-center bg-black/50 border backdrop-blur-sm z-50">
         <ul className="flex flex-wrap space-x-10 md:space-x-16">
           <li>
             <a
@@ -19,7 +19,7 @@ const Nav = () => {
             >
               <img
                 src={home}
-                className="w-[45px] hover:w-[70px] transition-all"
+                className="w-[45px] active:w-[70px] lg:hover:w-[70px] transition-all"
               />
             </a>
           </li>
@@ -34,7 +34,7 @@ const Nav = () => {
             >
               <img
                 src={about}
-                className="w-[45px] hover:w-[70px] transition-all"
+                className="w-[45px] active:w-[70px] lg:hover:w-[70px] transition-all"
               />
             </a>
           </li>
@@ -49,7 +49,7 @@ const Nav = () => {
             >
               <img
                 src={projects}
-                className="w-[45px] hover:w-[70px] transition-all"
+                className="w-[45px] active:w-[70px] lg:hover:w-[70px] transition-all"
               />
             </a>
           </li>

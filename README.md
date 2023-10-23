@@ -13,14 +13,11 @@ This is a personal portfolio website built using React, Vite, and styled with Ta
 ```bash
 git clone https://github.com/yourusername/your-portfolio.git
 ```
-<br>
 
 2. Navigate to the project directory
 ```bash
 cd your-portfolio
 ```
-
-<br>
 
 3. Install dependencies
 ```bash

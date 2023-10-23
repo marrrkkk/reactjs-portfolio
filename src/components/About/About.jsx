@@ -43,16 +43,16 @@ const About = () => {
             <span className="text-[#ad5b45]">&#123;</span>
           </pre>
           <pre>
-            &nbsp;7 <span className="text-[#ea7461]">        email</span>:{" "}
+            &nbsp;7 <span className="text-[#ea7461]">            email</span>:{" "}
             <span className="text-[#88af62]">'definitelynotmark@gmail.com</span>
             ',
           </pre>
           <pre>
-            &nbsp;8 <span className="text-[#ea7461]">        linkedin</span>:{" "}
+            &nbsp;8 <span className="text-[#ea7461]">            linkedin</span>:{" "}
             <span className="text-[#88af62]">'Mark Louie Alvarez'</span>,
           </pre>
           <pre>
-            &nbsp;9 <span className="text-[#ea7461]">        twitter</span>:{" "}
+            &nbsp;9 <span className="text-[#ea7461]">            twitter</span>:{" "}
             <span className="text-[#88af62]">'marrkkk___'</span>
           </pre>
           <pre>
