@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
           <p className="mt-3 text-left lg:w-96 w-80">
             Hello! I'm Mark Louie Alvarez, an aspiring web developer focusing on
-            React.js. I'm passionate about coding, and I'm dedicated to honing
+            Reactjs. I'm passionate about coding, and I'm dedicated to honing
             my skills in web development.
           </p>
           <ul className="flex mt-3 space-x-4">

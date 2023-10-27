@@ -11,13 +11,19 @@ const App = () => {
   return (
     <>
       <AnimatedCursor color="255, 255, 255" innerSize={20} />
-      <Nav />
-      <Home />
-      <About />
-      <Techstack />
-      <ScrollAnimationComponent />
-      <Footer />
-      <Blur />
+      <header>
+        <Nav />
+      </header>
+      <main>
+        <Home />
+        <About />
+        <Techstack />
+      </main>
+      <footer>
+        <ScrollAnimationComponent />
+        <Footer />
+        <Blur />
+      </footer>
     </>
   );
 };
