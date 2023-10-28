@@ -21,7 +21,7 @@ const Home = () => {
               Mark
             </span>
           </h1>
-          <h1 className="text-5xl text-white this lg:text-6xl">
+          <h1 className="w-80 lg:w-full text-4xl text-white this lg:text-6xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
               Web
             </span>{" "}
