@@ -24,8 +24,6 @@ cd your-portfolio
 npm install
 ```
 
-<br>
-
 ### Usage
 To start the development server, run:
 ```bash
@@ -36,8 +34,6 @@ To build the project locally, run:
 ```bash
 npm run build
 ```
-
-<br>
 
 ### Production
 For production deployment, you can use platforms like Vercel, Netlify, or GitHub Pages. Follow their respective documentation to deploy a static website.
