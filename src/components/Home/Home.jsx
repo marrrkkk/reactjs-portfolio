@@ -21,7 +21,7 @@ const Home = () => {
               Mark
             </span>
           </h1>
-          <h1 className="text-5xl text-white this lg:text-6xl">
+          <h1 className="w-80 lg:w-full text-4xl text-white this lg:text-6xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
               Web
             </span>{" "}
@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
           <p className="mt-3 text-left lg:w-96 w-80">
             Hello! I'm Mark Louie Alvarez, an aspiring web developer focusing on
-            React.js. I'm passionate about coding, and I'm dedicated to honing
+            Reactjs. I'm passionate about coding, and I'm dedicated to honing
             my skills in web development.
           </p>
           <ul className="flex mt-3 space-x-4">
