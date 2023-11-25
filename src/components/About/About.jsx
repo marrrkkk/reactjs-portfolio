@@ -3,7 +3,7 @@ import js from "../../assets/js2.svg";
 const About = () => {
   return (
     <section className="flex justify-center text-white mt-52" id="about">
-      <div className="w-[90%] lg:w-[70%] bg-[#161b22] rounded-lg slide-down">
+      <div className="w-[90%] md:w-[70%] bg-[#161b22] rounded-lg slide-down">
         <h1 className="my-2 text-sm text-center text-gray-500">
           Visual Studio Code
         </h1>

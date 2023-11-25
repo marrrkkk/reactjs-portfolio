@@ -6,7 +6,7 @@ import { Tooltip } from "react-tooltip";
 const Nav = () => {
   return (
     <>
-      <nav className="navBar md:active:h-[10%] lg:hover:h-[15%] lg:w-[25%] md:w-[40%] md:h-[9%] transition-all rounded-lg flex justify-center items-center bg-black/50 border backdrop-blur-sm z-50">
+      <nav className="fixed left-1/2 bottom-0 transform -translate-x-1/2 w-[70%] h-[11%] active:h-[15%] md:active:h-[10%] md:w-[40%] md:h-[9%] lg:h-[13%] lg:hover:h-[15%] lg:w-[25%] transition-all rounded-lg flex justify-center items-center bg-black/50 border backdrop-blur-sm z-50">
         <ul className="flex flex-wrap space-x-10 md:space-x-16">
           <li>
             <a

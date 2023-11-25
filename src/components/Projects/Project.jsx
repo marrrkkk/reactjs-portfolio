@@ -1,7 +1,7 @@
 import Card from "./Card";
-import snipe from "../../assets/snipe.png";
-import ghibli from "../../assets/Ghibli.png";
-import portfolio from "../../assets/portfolio.png";
+import snipe from "../../assets/snipe.webp";
+import ghibli from "../../assets/Ghibli.webp";
+import portfolio from "../../assets/portfolio.webp";
 
 const Project = () => {
   return (
@@ -32,7 +32,7 @@ const Project = () => {
           img={portfolio}
           title={"Old Portfolio"}
           content={
-            "My old portfolio made with html and css, inpired by my favourite game, Red Dead Redemption 2."
+            "My old portfolio made with html and css, inspired by my favourite game, Red Dead Redemption 2."
           }
           tag={"HTML + CSS"}
           link={"https://marrrkkk.github.io/MarkLouie/"}

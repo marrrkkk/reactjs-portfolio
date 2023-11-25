@@ -21,19 +21,6 @@ body {
   font-weight: 800;
 }
 
-.navBar {
-  position: fixed;
-  width: 70%;
-  height: 11%;
-  bottom: 1%;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.navBar:active {
-  height: 15%;
-}
-
 .blurEffect {
   position: fixed;
   width: 800px;
@@ -60,7 +47,7 @@ pre {
 
 @keyframes slide-up {
   0% {
-    transform: translateY(100px);
+    transform: translateY(30px);
     opacity: 0%;
   }
   100% {
